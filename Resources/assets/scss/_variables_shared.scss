@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+$acad-navbar-height: 60px !default;
+$acad-navbar-header-width: 250px !default;
+$acad-navbar-background: #3F51B5 !default;
+$acad-navbar-header-background: $acad-navbar-background !default;
+$acad-navbar-color: #FFF !default;
+$acad-navbar-hover: #FF8F00 !default;
+$acad-navbar-header-border-right: none !default;
+$acad-sidebar-width: $acad-navbar-header-width !default;
+$acad-footer-height: 60px !default;

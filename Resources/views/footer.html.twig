@@ -1,0 +1,13 @@
+<footer id="acadFooter" class="{{ footer_display_var }}{% if footer_display == "always" %} {{ footer_width_var }}{% endif %}{% if sidebar_display == "always" %} {{ sidebar_bp }}{% endif %}">
+    {% block footer_content %}
+    <div class="container-fluid text-center">
+        <img src="{{ asset(logo_footer) }}" alt="Logo DSI"
+             height="50"/>
+        © {{ "now"|date("Y") }} Direction des systèmes d'information - Tous droits réservés -
+        <a href="{{ path_mentions_legales }}" target="_blank">Mentions légales</a>
+        {% if num_cnil  %}
+            - n° CNIL : {{ num_cnil }}
+        {% endif %}
+    </div>
+    {% endblock %}
+</footer>

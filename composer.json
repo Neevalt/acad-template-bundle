@@ -1,0 +1,28 @@
+{
+    "name": "neevalt/acad-template-bundle",
+    "description": "Template Bundle",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Neevalt",
+            "email": "neevalt@gmail.com"
+        }
+    ],
+    "keywords": [
+        "template", "academie", "creteil"
+    ],
+    "require": {
+        "symfony/twig-bundle": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neevalt\\AcadTemplateBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

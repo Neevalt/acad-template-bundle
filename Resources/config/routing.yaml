@@ -1,0 +1,7 @@
+acad_template_mentions_legales:
+    path:     /mentions-legales/
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    '@AcadTemplate/mentions_legales.html.twig'
+        maxAge:      86400
+        sharedAge:   86400
