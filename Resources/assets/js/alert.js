@@ -5,7 +5,7 @@ export default function acadAlert(type, message) {
     if (lightColors.includes(type)) {
         text = 'light';
     }
-    const regx = /^(#(.+?)#)?(.*)$/g;
+    const regx = /^(#([\s\S]+?)#)?([\s\S]*)$/;
     const match = regx.exec(message);
     let content;
     if (match[3] && match[2]) {

@@ -27,8 +27,8 @@
             &.sidebar-always {
                 left: 0;
             }
-            &.open.sidebar-collapse {
-                left: 0;
+            &.sidebar-collapse {
+                left: -$acad-sidebar-width;
             }
         }
     }
@@ -37,8 +37,8 @@
             &.sidebar-always {
                 left: 0;
             }
-            &.open.sidebar-collapse {
-                left: 0;
+            &.sidebar-collapse {
+                left: -$acad-sidebar-width;
             }
         }
     }
@@ -48,8 +48,8 @@
             &.sidebar-always {
                 left: 0;
             }
-            &.open.sidebar-collapse {
-                left: 0;
+            &.sidebar-collapse {
+                left: -$acad-sidebar-width;
             }
         }
     }
@@ -59,8 +59,8 @@
             &.sidebar-always {
                 left: 0;
             }
-            &.open.sidebar-collapse {
-                left: 0;
+            &.sidebar-collapse {
+                left: -$acad-sidebar-width;
             }
         }
     }
